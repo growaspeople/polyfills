@@ -1,0 +1,21 @@
+{
+	"name": "polyfills-loader",
+	"main": "polyfills.js",
+	"version": "0.0.1",
+	"homepage": "http://growaspeople.org/",
+	"description": "Polyfills used in GrowAsPeople projects",
+	"authors": [
+		{
+			"name": "Jumpei Ogawa",
+			"homepage": "http://growaspeople.org"
+		}
+	],
+	"ignore": [
+		".jshintrc",
+		"node_modules",
+		"bower_components"
+	],
+	"dependencies": {
+		"coding-standards": "growaspeople/coding-standards"
+	}
+}

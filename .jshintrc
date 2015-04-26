@@ -1,0 +1,12 @@
+{
+	"extends": "./bower_components/coding-standards/javascript/.jshintrc",
+
+	"browser": true,
+	"devel": true,
+	"jquery": true,
+	"globals": {
+		"_": false,
+		"Papa": false,
+		"Promise": false
+	}
+}
