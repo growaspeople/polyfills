@@ -17,4 +17,15 @@
 			}
 		});
 	}
+
+	/*
+	 * String.prototype.includes
+	 * Brought from MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes
+	 * License: CC0 1.0 Universal (Public Domain) http://creativecommons.org/publicdomain/zero/1.0/
+	 */
+	if (!String.prototype.includes) {
+		String.prototype.includes = function() {
+			return String.prototype.indexOf.apply(this, arguments) !== -1;
+		};
+	}
 }());
